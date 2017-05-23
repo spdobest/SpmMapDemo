@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="spm.mymapdemo.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="10"
+    >
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:weightSum="3"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            >
+
+            <Button
+                android:id="@+id/btnIndorMap"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Indor Map"
+                />
+
+            <Button
+                android:id="@+id/btnCuctomrker"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Custom Marker"
+                />
+
+            <Button
+                android:id="@+id/btnAnimateCamera"
+                android:text="Animate Camera"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:id="@+id/btnZoom"
+                android:text="Zoom"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:id="@+id/btnMoveCam2Loc"
+                android:text="Move Camera TO Location"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            >
+            <Button
+                android:id="@+id/btMapType"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Chasnge Map"
+                />
+
+            <Button
+                android:id="@+id/btnCompas"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Enable Compas"
+                />
+
+            <Button
+                android:id="@+id/btnMyLoc"
+                android:text="My Location"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:id="@+id/btnRotateMap"
+                android:text="Rotate Map"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:id="@+id/btnTrafick"
+                android:text="Trafic"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            >
+            <Button
+                android:id="@+id/btDrawCircle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Draw Circle"
+                />
+
+            <Button
+                android:id="@+id/btnDrawPolygon"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Draw Polygon"
+                />
+
+            <Button
+                android:id="@+id/btnDrawPolyLine"
+                android:text="Draw Poly Line"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:id="@+id/btnBuildingEnable"
+                android:text="Building Enable"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:id="@+id/btnDrawLine"
+                android:text="Draw Line"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

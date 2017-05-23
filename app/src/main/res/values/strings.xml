@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">MyMapDemo</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="project_id">mymapdemo-1210</string>
+    <string name="project_number">117798878155</string>
+    <string name="google_map_api_key">AIzaSyDJmInD0t-Z-b5ykJVjW8pD2F9WlmUujH4</string>
+    <string name="google_map_new_key">AIzaSyDx4WgVk-x5G5vrI5EhK6PcJZRcDy2h6r0</string>
+
+
+    <!--for near by places-->
+
+    <string-array name="place_type">
+        <item>airport</item>
+        <item>atm</item>
+        <item>bank</item>
+        <item>bus_station</item>
+        <item>church</item>
+        <item>doctor</item>
+        <item>hospital</item>
+        <item>mosque</item>
+        <item>movie_theater</item>
+        <item>hindu_temple</item>
+        <item>restaurant</item>
+    </string-array>
+
+    <string-array name="place_type_name">
+        <item>Airport</item>
+        <item>ATM</item>
+        <item>Bank</item>
+        <item>Bus Station</item>
+        <item>Church</item>
+        <item>Doctor</item>
+        <item>Hospital</item>
+        <item>Mosque</item>
+        <item>Movie Theater</item>
+        <item>Hindu Temple</item>
+        <item>Restaurant</item>
+    </string-array>
+
+</resources>

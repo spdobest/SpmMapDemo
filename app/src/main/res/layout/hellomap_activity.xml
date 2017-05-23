@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="spm.mymapdemo.HelloMapActivity"
+    android:orientation="vertical"
+    android:weightSum="10"
+    >
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:weightSum="2"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            >
+
+            <Button
+                android:id="@+id/btnChangeMap"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Change Map"
+                />
+
+            <Button
+                android:id="@+id/btnIndoreMap"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Indore Map"
+                />
+
+            <Button
+                android:id="@+id/btnCustomMarker"
+                android:text="Custom Marker"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:id="@+id/btnFlatMarker"
+                android:text="Frat Marker"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:id="@+id/btnPolyLine"
+                android:text="Poly Line"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            >
+            <Button
+                android:id="@+id/btMapType"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Chasnge Map"
+                />
+
+            <Button
+                android:id="@+id/btnCompas"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Enable Compas"
+                />
+
+            <Button
+                android:id="@+id/btnMyLoc"
+                android:text="My Location"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:id="@+id/btnRotateMap"
+                android:text="Rotate Map"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:id="@+id/btnTrafick"
+                android:text="Trafic"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
