@@ -1,3 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="spm.mymapdemo.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="10"
+    >
 <fragment xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
           android:layout_width="match_parent"
@@ -5,3 +16,26 @@
           android:id="@+id/map"
           tools:context=".sp_googlemap.SpmMapActivity"
           android:name="com.google.android.gms.maps.SupportMapFragment" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<spm.mymapdemo.customView.FocusView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+</spm.mymapdemo.customView.FocusView>
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:indeterminate="false"
+            android:progressDrawable="@drawable/progressbar_bg"
+            android:background="@drawable/circle_shape"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:max="100"
+            android:progress="65"
+            android:layout_margin="10dp"
+            />
+    </FrameLayout>
+</FrameLayout>
