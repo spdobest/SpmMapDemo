@@ -51,6 +51,6 @@ public class FocusView extends View {
 
         canvas.drawPath(mPath, mSemiBlackPaint);
         canvas.clipPath(mPath);
-        canvas.drawColor(Color.parseColor("#A6000000"));
+        canvas.drawColor(Color.parseColor("#000000")); // #A6000000
     }
 }
